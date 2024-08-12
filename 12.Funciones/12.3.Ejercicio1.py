@@ -1,0 +1,34 @@
+#Ejercicio 1
+#Crear un programa que tenga una lista,
+# luego crear una funcion con la cual
+# se van a pedir numeros al usuario para
+# agregar a la lista. Debes crear un
+#  segunda funcion en donde se ordenen
+# los numeros pares e impares dentro de
+# dos listas nuevas
+
+lista = []
+numero =0
+
+def pedir():
+    i=0
+    while i<=5:
+        numero =float(input("Ingresa un numero: "))
+        lista.append(numero) #append permite agregar datos a una lista
+        i+=1
+
+def ordenar():
+    lista.sort()
+    pares=[]
+    impares=[]
+    for i in lista:
+        if i %2 ==0:
+            pares.append(i)      
+        else:
+            impares.append(i)
+    print(pares)
+    print(impares)
+
+
+pedir()
+ordenar()
