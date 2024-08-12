@@ -9,3 +9,6 @@ class Perro(Animales):
 
 
     perro= Perro("Firulais", "Guaaoo!")
+
+
+
