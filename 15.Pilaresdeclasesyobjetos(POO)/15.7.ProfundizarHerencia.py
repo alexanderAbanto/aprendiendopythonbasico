@@ -8,7 +8,7 @@ class Perro(Animales):
         self.sonido = sonido
 
 
-    perro= Perro("Firulais", "Guaaoo!")
+    perro= Perro("Firulais","Guaaoo!")
 
 
 
